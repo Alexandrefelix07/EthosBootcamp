@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NaoEditarLevel</fullName>
+    <active>false</active>
+    <description>Não permite editar o level do status unciais antes de &quot;Em Treinamento&quot;</description>
+    <errorConditionFormula>AND(
+				ISCHANGED(Level__c),
+				NOT(ISPICKVAL(Status_Candidato__c,&quot;Aprovado no Treinamento&quot;)),
+				NOT(ISPICKVAL(Status_Candidato__c,&quot;Reprovado no Treinamento&quot;)),
+				NOT(ISPICKVAL(Status_Candidato__c,&quot;Aprovado Direto&quot;)),
+				NOT(ISPICKVAL(Status_Candidato__c,&quot;Em Treinamento&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Level__c</errorDisplayField>
+    <errorMessage>Não pode editar</errorMessage>
+</ValidationRule>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Candidato__c</fullName>
+    <description>Status do contato ou herói após o lead</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Status do contato ou herói após o lead</inlineHelpText>
+    <label>Status Candidato</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aprovado direto</fullName>
+                <default>false</default>
+                <label>Aprovado direto</label>
+            </value>
+            <value>
+                <fullName>Em Analise</fullName>
+                <default>true</default>
+                <label>Em Analise</label>
+            </value>
+            <value>
+                <fullName>Em treinamento</fullName>
+                <default>false</default>
+                <label>Em treinamento</label>
+            </value>
+            <value>
+                <fullName>Reprovado em treinamento</fullName>
+                <default>false</default>
+                <label>Reprovado em treinamento</label>
+            </value>
+            <value>
+                <fullName>Reprovado na Analise</fullName>
+                <default>false</default>
+                <label>Reprovado na Analise</label>
+            </value>
+            <value>
+                <fullName>Reprovado na Analise do Gestor</fullName>
+                <default>false</default>
+                <label>Reprovado na Analise do Gestor</label>
+            </value>
+            <value>
+                <fullName>Aprovado em Treinamento</fullName>
+                <default>false</default>
+                <label>Aprovado em Treinamento</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

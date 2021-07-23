@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vilao</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>LayoutCustom</compactLayoutAssignment>
+    <label>Vilão</label>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Level__c</picklist>
+        <values>
+            <fullName>Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secondary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tertiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Niveldoheroi__c</picklist>
+        <values>
+            <fullName>Aspira</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Junior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pleno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senior</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status_Candidato__c</picklist>
+        <values>
+            <fullName>Aprovado direto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aprovado em Treinamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Em Analise</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Em treinamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reprovado em treinamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reprovado na Analise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reprovado na Analise do Gestor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

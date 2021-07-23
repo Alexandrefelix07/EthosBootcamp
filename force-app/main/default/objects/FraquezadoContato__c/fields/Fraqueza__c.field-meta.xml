@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fraqueza__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Relacionamento com Contato</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Relacionamento com Contato</inlineHelpText>
+    <label>Fraqueza</label>
+    <referenceTo>Fraqueza__c</referenceTo>
+    <relationshipLabel>Fraquezas do Contatos</relationshipLabel>
+    <relationshipName>FraquezasDoContatos</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
