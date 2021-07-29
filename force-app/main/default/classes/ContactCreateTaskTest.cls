@@ -1,3 +1,3 @@
-public class ContactCreateTaskTest {
+public with sharing class ContactCreateTaskTest {
 
 }
