@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NumeroBatalhas__c</fullName>
+    <description>exibe o numero de 
+batalhas em que o contato esta participando</description>
+    <externalId>false</externalId>
+    <inlineHelpText>exibe o numero de 
+batalhas em que o contato esta participando</inlineHelpText>
+    <label>Numero Batalhas</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

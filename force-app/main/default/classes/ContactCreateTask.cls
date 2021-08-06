@@ -1,5 +1,7 @@
 public with sharing class ContactCreateTask {
-    public ContactCreateTask() {
+   
+    public static void  ContactCreateTask() {
 
+        
     }
 }
