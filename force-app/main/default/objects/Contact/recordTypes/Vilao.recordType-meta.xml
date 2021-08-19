@@ -5,6 +5,21 @@
     <compactLayoutAssignment>LayoutCustom</compactLayoutAssignment>
     <label>Vilão</label>
     <picklistValues>
+        <picklist>JaAtuouCcomoHeroi__c</picklist>
+        <values>
+            <fullName>Não</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não Sei</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sim</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>LeadSource</picklist>
         <values>
             <fullName>Other</fullName>

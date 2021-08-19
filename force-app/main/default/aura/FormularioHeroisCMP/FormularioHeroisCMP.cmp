@@ -1,0 +1,25 @@
+<aura:component controller="FormularioHeroisCMPController">   
+    <aura:attribute name="firstname"    type="String"/>
+    <aura:attribute name="lastname"     type="String"/>
+    <aura:attribute name="Nomedeguerra" type="String"/>
+    <aura:attribute name="planeta"      type="String"/>
+    <aura:attribute name="descricao"    type="String"/>
+    
+      <lightning:card variant="Narrow" title="Formulario Cadastro Academia marvel" iconName="standard:account" >
+        <p class="slds-p-horizontal_small">
+          <lightning:input name="firstname"    label="Primeiro Nome" value="{!v.firstname}" />  
+          <lightning:input name="lastname"     label="Ultimo Nome" value="{!v.lastname}"/>  
+          <lightning:input name="Nomedeguerra" label="Nome de guerra" value="{!v.Nomedeguerra}" />  
+          <lightning:input name="planeta"      label="Planeta" value="{!v.planeta}" />  
+          <lightning:input name="descricao"    label="descrição" value="{!v.descricao}" />   
+     </p>
+          
+      <aura:set attribute="footer">
+            <center>
+               <lightning:button variant="neutral" label="reset" title="Limpar Tela!" type="reset" />
+               <lightning:button variant="brand"   label="Salvar"   title="Clique para Salvar!" onclick="{!c.salvar }" /> 
+          </center> 
+      </aura:set>          
+    </lightning:card>
+      <footer id="rodape"><center><p> Copyright &copy; 2021 Academia Marvel - by ALEXANDRE FELIX MENEZES</p></center></footer> 
+</aura:component>

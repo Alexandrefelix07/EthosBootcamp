@@ -20,8 +20,10 @@ public class BatalhasContatoTriggerHelper {
       }
         if (! contactToUpdate.isEmpty() ) {
             update contactToUpdate;
-        }     
-         
-            
+        }                        
     }
+    
+    
+
+    
 }
